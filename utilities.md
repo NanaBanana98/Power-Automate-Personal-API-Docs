@@ -1,9 +1,9 @@
-#Utilities
+# Utilities
 ---
-##Save Email to PDF
+## Save Email to PDF
 This flow saves an email to a PDF at a given path. The PDF saves as ```FROM_sender@email.com_TO_reciver1@email.com;reciver2@email.com_SENT_dayMonthYear_hourMinute.pdf```
-###Input
-#####Email (required)
+### Input
+##### Email (required)
 An email in JSON format. 
 Properties must include:
 * subject - (string)  email subject
@@ -39,7 +39,7 @@ If you are using an automatic trigger to get an email, you can pass the entirety
 2. **Cast the body property to string**
     a. ```string(triggerOutputs()?['body'])```
 3. **Pass the casted value to the Email input**
-#####Path
+##### Path
 Indicates the save location. Do not include a file name and only a pass location. By default, the path is set to ```/```.
 If you wish to save to the root **do not** pass any value.
 If you wish to provide a new location **do not** end the path with```/```.
@@ -50,8 +50,8 @@ Sample Input
 /powerAutomate/emails/pdf
 ```
 
-###Output
-#####file
+### Output
+##### file
 
 The File ID of the created PDF
 

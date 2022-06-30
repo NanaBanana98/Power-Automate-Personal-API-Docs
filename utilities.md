@@ -80,7 +80,7 @@ Sample Output
 ---
 
 ## Verifiy that Excel Table Exists
-Checks if an Excel table exists at a given location. If the location does not exist or a table cannot be found ``` false``` is returned. If the table is found ```true``` is returned.
+Checks if an Excel table with a given name exists at a given location. If the location does not exist or a table cannot be found ``` false``` is returned. If the table is found ```true``` is returned.
 
 ### Input
 #### File Path (required)
@@ -109,4 +109,8 @@ It is used to indicate if the table has been found. ```Table Exists``` is set to
 The value is passed through ```Respond to a PowerApp or flow``` so any parent apps will have ready access to the value.
 
 Sample Output
-```True```
+```javascript
+{
+  "table_exists": "False"
+}
+```

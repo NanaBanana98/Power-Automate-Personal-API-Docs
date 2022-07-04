@@ -3,6 +3,7 @@ Flows that are reusable and no similar templates could be found.
 Contents:
 * [Save Email to PDF](#save-email-to-pdf)
 * [Verifiy that Excel Table Exists](#verifiy-that-excel-table-exists)
+* [Get Excel Table Columns](#get-excel-table-columns)
 ---
 ## Save Email to PDF
 This flow saves an email to a PDF at a given path. The PDF saves as ```FROM_sender@email.com_TO_reciver1@email.com;reciver2@email.com_SENT_dayMonthYear_hourMinute.pdf```
@@ -80,12 +81,17 @@ Sample Output
 ---
 
 ## Verifiy that Excel Table Exists
-Checks if an Excel table with a given name exists at a given location. If the location does not exist or a table cannot be found ``` false``` is returned. If the table is found ```true``` is returned.
+Checks if an Excel table with a given name exists at a given location. If the location does not exist or a table cannot be found ``` false``` is returned. If the table is found ```true``` is returned. If the table is found, the index of the table in the file is also returned; otherwise the index is set to -1.
 
 ### Input
-#### File Path (required)
+#### File Path
 The value is a string that indicates the location of the search.
-Do not end path with a ```/```
+ By default, the path is set to ```/``` *(root)*.
+
+Not following the listed requirements will result in error:
+* **Do not** include a file name and only a pass location.
+* If you wish to save to the root **do not** pass any value.
+* If you wish to provide a new location **do not** end the path with```/```.
 
 Sample Input
 ```/location/location2```
@@ -108,9 +114,60 @@ Sample Input
 It is used to indicate if the table has been found. ```Table Exists``` is set to ```true``` if the table has been found. ```Table Exists``` is set to ```false``` if the table is not found. 
 The value is passed through ```Respond to a PowerApp or flow``` so any parent apps will have ready access to the value.
 
-Sample Output
+#### Table Index
+Indicates the index of the table in the array returned when `Get all Tables in File` is called. If the table is not found then ```-1``` is output
+
+#### Sample Output
 ```javascript
 {
-  "table_exists": "False"
+  "table_exists": "False",
+  "index": "-1"
 }
 ```
+
+## Get Excel Table Columns
+Returns an array of column names in an excel table.
+
+### Inputs
+#### File Name (required)
+This field is a string representing the file's name where the table is located.
+Do not include extension, only name. 
+
+##### Sample Input
+```filename```
+
+#### Table Name (required)
+A string representing the table's name where the flow will fetch the columns from.
+##### Sample Input
+```Table Name```
+
+#### File Path
+The value is a string that indicates the location of the search.
+ The path is,  by default, set to ```/``` *(root)*.
+
+Not following the listed requirements will result in an error:
+* **Do not** include a file name and only a pass location.
+* If you wish to save to the root **do not** pass any value.
+* If you wish to provide a new location **do not** end the path with```/```.
+
+##### Sample Input
+```/location/location2```
+
+### Outputs
+#### Columns
+A stringified array containing the names of the columns in the table. 
+##### Sample Output
+```javascript
+{
+  "columns": "[\"@odata.etag\",\"ItemInternalId\",\"Date Posted\",\"Payment Date\",\"Invoice Number\",\"Vendor\",\"Amount\",\"Remittance Number\",\"Attachment\",\"Approved\"]"
+}
+```
+
+### Error Codes
+
+#### 1 - Path not found
+The file Path provided does not map to any existing path. 
+#### 2 - File Name not found.
+The file Name provided does not match any file at the path location.
+#### 3 - Table not found.
+The table Name provided does not match an existing table in the file.

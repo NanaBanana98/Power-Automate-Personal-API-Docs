@@ -171,3 +171,47 @@ The file Path provided does not map to any existing path.
 The file Name provided does not match any file at the path location.
 #### 3 - Table not found.
 The table Name provided does not match an existing table in the file.
+
+## Ensure Valid Excel Table
+Checks that an Excel table that matches the given parameters exists. One is created/modified to fit the given parameters if one does not exist. No columns are dropped when changing a table, only added if the columns listed do not exist. 
+
+### Inputs
+#### File Name (required)
+This field is a string representing the file's name where the table is located.
+Do not include extension, only name. 
+
+##### Sample Input
+```filename```
+
+#### Table Name (required)
+A string representing the table's name where the flow will fetch the columns from.
+##### Sample Input
+```Table Name```
+
+#### Columns (required)
+An array of names of columns that the table MUST include.
+##### Sample Input
+```['col1', 'col2', 'col3']```
+
+#### File Path
+The value is a string that indicates the location of the search.
+ The path is,  by default, set to ```/``` *(root)*.
+
+Not following the listed requirements will result in an error:
+* **Do not** include a file name and only a pass location.
+* If you wish to save to the root **do not** pass any value.
+* If you wish to provide a new location **do not** end the path with```/```.
+
+##### Sample Input
+```/location/location2```
+
+### Outputs
+#### Excel File ID
+String. The ID of the file where the table is located. 
+
+#### Sample Output
+```javascript
+{
+  "excel_file_id": "RXhjZWwgRmlsZSBJRA=="
+}
+```

@@ -5,6 +5,7 @@ Contents:
 * [Verifiy that Excel Table Exists](#verifiy-that-excel-table-exists)
 * [Get Excel Table Columns](#get-excel-table-columns)
 * [Ensure Valid Excel Table](#ensure-valid-excel-table)
+* [Get Prop Names](#get-prop-names)
 ---
 ## Save Email to PDF
 This flow saves an email to a PDF at a given path. The PDF saves as ```FROM_sender@email.com_TO_reciver1@email.com;reciver2@email.com_SENT_dayMonthYear_hourMinute.pdf```
@@ -129,6 +130,9 @@ Indicates the index of the table in the array returned when `Get all Tables in F
 ## Get Excel Table Columns
 Returns an array of column names in an excel table.
 
+### Dependancies
+* [Get Prop Names](#get-prop-names)
+
 ### Inputs
 #### File Name (required)
 This field is a string representing the file's name where the table is located.
@@ -214,5 +218,28 @@ String. The ID of the file where the table is located.
 ```javascript
 {
   "excel_file_id": "RXhjZWwgRmlsZSBJRA=="
+}
+```
+
+## Get Prop Names
+Gets an object's prop names and returns them in a stringified array.
+
+## Input
+
+### Object (required)
+A stringified JSON object
+#### Sample Input
+```javascript
+{"@odata.etag":"","ItemInternalId":"9dd003e4-159a-4a12-8ea0-17f26f69e510","Date Posted":"","Payment Date":"","Invoice Number":"","Vendor":"","Amount":"","Remittance Number":"","Attachment":"","Approved":""}
+```
+
+## Output
+### Prop Names
+A stringified array of prop names belonging to the object.
+
+### Sample Output
+```javascript
+{
+  "prop_names": "[\"@odata.etag\",\"ItemInternalId\",\"Date Posted\",\"Payment Date\",\"Invoice Number\",\"Vendor\",\"Amount\",\"Remittance Number\",\"Attachment\",\"Approved\"]"
 }
 ```

@@ -237,9 +237,15 @@ A stringified JSON object
 ### Prop Names
 A stringified array of prop names belonging to the object.
 
+### Status Code
+Indicates the status of the flow's exit
+#### 0: Successful Execution
+#### -1: Failed, Invalid JSON object 
+
 ### Sample Output
 ```javascript
 {
-  "prop_names": "[\"@odata.etag\",\"ItemInternalId\",\"Date Posted\",\"Payment Date\",\"Invoice Number\",\"Vendor\",\"Amount\",\"Remittance Number\",\"Attachment\",\"Approved\"]"
+  "prop_names": "[\"@odata.etag\",\"ItemInternalId\",\"Date Posted\",\"Payment Date\",\"Invoice Number\",\"Vendor\",\"Amount\",\"Remittance Number\",\"Attachment\",\"Approved\"]",
+  "status_code": 0
 }
 ```

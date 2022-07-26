@@ -262,8 +262,8 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object is string with object embedded within
+    -path: in format '/location'
+    -JSON Object is string with object embedded within
 
 Then return the columns of that table with status code 0
 

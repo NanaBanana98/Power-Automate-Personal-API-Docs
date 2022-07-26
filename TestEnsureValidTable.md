@@ -1469,4 +1469,4 @@ When inputs are
 
 Then return an empty stringified array with status code 1
 
-**Covers Design:** D59
+**Covers Descion:** D59

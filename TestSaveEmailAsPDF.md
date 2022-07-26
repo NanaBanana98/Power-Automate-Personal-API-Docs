@@ -192,39 +192,39 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - Array of object
-                    - Has contentBytes prop
-                        -all is string
-                    -Has object with 'image/png' contentType
-                    -Has object with 'image/avif' contentType
-                    -Has object with 'image/bmp' contentType
-                    -Has object with 'image/gif' contentType
-                    -Has object with 'image/jpeg' contentType
-                    -Has object with 'image/tiff' contentType
-                    -Has object with 'image/webp' contentType
-                    -Has object with 'application/msword' contentType
-                    -Has object with 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' contentType
-                    -Has object with 'application/json' contentType
-                    -Has object with 'application/pdf' contentType
-                    -Has object with 'application/x-httpd-php' contentType
-                    -Has object with 'application/vnd.ms-powerpoint' contentType
-                    -Has object with 'application/vnd.openxmlformats-officedocument.presentationml.presentation' contentType
-                    -Has object with 'text/html' contentType
-                    -Has object with 'text/plain' contentType
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Array of object
+                - Has contentBytes prop
+                    - all is string
+                - Has object with 'image/png' contentType
+                - Has object with 'image/avif' contentType
+                - Has object with 'image/bmp' contentType
+                - Has object with 'image/gif' contentType
+                - Has object with 'image/jpeg' contentType
+                - Has object with 'image/tiff' contentType
+                - Has object with 'image/webp' contentType
+                - Has object with 'application/msword' contentType
+                - Has object with 'application/vnd.openxmlformats-officedocument.wordprocessingml.document' contentType
+                - Has object with 'application/json' contentType
+                - Has object with 'application/pdf' contentType
+                - Has object with 'application/x-httpd-php' contentType
+                - Has object with 'application/vnd.ms-powerpoint' contentType
+                - Has object with 'application/vnd.openxmlformats-officedocument.presentationml.presentation' contentType
+                - Has object with 'text/html' contentType
+                - Has object with 'text/plain' contentType
 
 Then return the columns of that table with status code 0
 
@@ -236,8 +236,8 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object is blank space
+- path: in format '/location'
+- JSON Object is blank space
 
 Then return the columns of that table with status code 0
 
@@ -249,8 +249,8 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object is alphanumeric string 
+- path: in format '/location'
+- JSON Object is alphanumeric string 
 
 Then return the columns of that table with status code 0
 
@@ -262,8 +262,8 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    -path: in format '/location'
-    -JSON Object is string with object embedded within
+- path: in format '/location'
+- JSON Object is string with object embedded within
 
 Then return the columns of that table with status code 0
 
@@ -274,9 +274,9 @@ Then return the columns of that table with status code 0
 ### ID: 6
 
 **Scenario:**
-- When inputs are:
-    - path: in format '/location'
-    - JSON Object has no curly braces
+When inputs are:
+- path: in format '/location'
+- JSON Object has no curly braces
 
 Then return the columns of that table with status code 0
 
@@ -288,8 +288,8 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object is array
+- path: in format '/location'
+- JSON Object is array
 
 Then return the columns of that table with status code 0
 
@@ -301,8 +301,8 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object is float
+- path: in format '/location'
+- JSON Object is float
 
 Then return the columns of that table with status code 0
 
@@ -314,8 +314,8 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object is integer
+- path: in format '/location'
+- JSON Object is integer
 
 Then return the columns of that table with status code 0
 
@@ -327,20 +327,20 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - No subject prop
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients props
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - No subject prop
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients props
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -353,20 +353,20 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - No toRecipients prop
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - No toRecipients prop
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -379,20 +379,20 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - No toRecipients prop
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - No toRecipients prop
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -405,20 +405,20 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - No from prop
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - No from prop
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -431,20 +431,20 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - No recivedDatetime
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - No recivedDatetime
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -457,21 +457,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Number
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Number
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -484,21 +484,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - boolean
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - boolean
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 Then return the columns of that table with status code 0
 
@@ -510,21 +510,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Array
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Array
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -537,21 +537,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - float
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - float
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -564,21 +564,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Object
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Object
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 Then return the columns of that table with status code 0
 
@@ -590,21 +590,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - integer
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - integer
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -617,21 +617,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - boolean
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - boolean
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -644,21 +644,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Array
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Array
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -671,21 +671,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Float
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Float
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -698,21 +698,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Object
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Object
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -725,21 +725,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - integer
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - integer
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -752,21 +752,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - boolean
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - boolean
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -779,21 +779,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - array
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - array
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -806,21 +806,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - float
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - float
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -833,21 +833,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Object
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Object
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -860,22 +860,22 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - integer
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - Array of object
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - integer
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Array of object
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -888,21 +888,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - boolean
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - boolean
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -915,25 +915,25 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - array
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - array
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
-
+ 
 **Covers Equivalence Classes:** 48
 
 **Covers Design:** D2
@@ -942,21 +942,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - float
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - float
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -969,21 +969,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Object
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Object
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -996,21 +996,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - integer
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - integer
+        - Has attachments
+            - Empty array
 
 Then return the columns of that table with status code 0
 
@@ -1022,21 +1022,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - boolean
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - boolean
+        - Has attachments
+            - Empty array
 
 
 Then return the columns of that table with status code 0
@@ -1049,21 +1049,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alrray
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alrray
+        - Has attachments
+            - Empty array
 
 Then return the columns of that table with status code 0
 
@@ -1075,21 +1075,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - float
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - float
+        - Has attachments
+            - Empty array
 
 Then return the columns of that table with status code 0
 
@@ -1101,21 +1101,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Object
-            - Has attachments
-                -Empty array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Object
+        - Has attachments
+            - Empty array
 
 Then return the columns of that table with status code 0
 
@@ -1127,21 +1127,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - integer
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - integer
 
 Then return the columns of that table with status code 0
 
@@ -1153,21 +1153,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - float
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - float
 
 Then return the columns of that table with status code 0
 
@@ -1179,21 +1179,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - string
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - string
 
 Then return the columns of that table with status code 0
 
@@ -1205,21 +1205,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - Is object
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Is object
 
 Then return the columns of that table with status code 0
 
@@ -1231,21 +1231,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - Array of integers
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Array of integers
 
 Then return the columns of that table with status code 0
 
@@ -1257,21 +1257,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - Array of floats
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Array of floats
 
 Then return the columns of that table with status code 0
 
@@ -1283,21 +1283,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - Array of booleans
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Array of booleans
 
 Then return the columns of that table with status code 0
 
@@ -1309,21 +1309,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - Array of strings
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Array of strings
 
 Then return the columns of that table with status code 0
 
@@ -1335,21 +1335,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - Array of arrays
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Array of arrays
 
 Then return the columns of that table with status code 0
 
@@ -1361,22 +1361,22 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - Array of object
-                    - Has no contentBytes prop
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Array of object
+                - Has no contentBytes prop
 
 Then return the columns of that table with status code 0
 
@@ -1388,23 +1388,23 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - Array of object
-                    - Has contentType prop
-                        - Is invalid value ie: audio/mpeg
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Array of object
+                - Has contentType prop
+                    - Is invalid value ie: audio/mpeg
 
 Then return the columns of that table with status code 0
 
@@ -1416,23 +1416,23 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - Array of object
-                    - Has contentBytes prop
-                        -Is boolean
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Array of object
+                - Has contentBytes prop
+                    - Is boolean
 
 Then return the columns of that table with status code 0
 
@@ -1444,23 +1444,23 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - Array of object
-                    - Has contentBytes prop
-                        -Is integer
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Array of object
+                - Has contentBytes prop
+                    - Is integer
 
 Then return the columns of that table with status code 0
 
@@ -1472,23 +1472,23 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - Array of object
-                    - Has contentBytes prop
-                        -Is float
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Array of object
+                - Has contentBytes prop
+                    - Is float
 
 Then return the columns of that table with status code 0
 
@@ -1500,23 +1500,23 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - Array of object
-                    - Has contentBytes prop
-                        -Is Object
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Array of object
+                - Has contentBytes prop
+                    - Is Object
 
 Then return the columns of that table with status code 0
 
@@ -1528,23 +1528,23 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - Array of object
-                    - Has contentBytes prop
-                        -Is array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Array of object
+                - Has contentBytes prop
+                    - Is array
 
 Then return the columns of that table with status code 0
 
@@ -1556,23 +1556,23 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Alphanumeric string
-            - Has body prop
-                - Alphanumeric string
-            - Has toRecipients prop
-                - Alphanumeric string
-            - Has from prop
-                - Alphanumeric string
-            - Has recivedDatetime
-                - Alphanumeric string
-            - Has attachments
-                - Array of object
-                    - Has contentBytes prop
-                        -Is array
+- path: in format '/location'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Alphanumeric string
+        - Has body prop
+            - Alphanumeric string
+        - Has toRecipients prop
+            - Alphanumeric string
+        - Has from prop
+            - Alphanumeric string
+        - Has recivedDatetime
+            - Alphanumeric string
+        - Has attachments
+            - Array of object
+                - Has contentBytes prop
+                    - Is array
 
 Then return the columns of that table with status code 0
 
@@ -1584,20 +1584,20 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location' and does not map to existing location
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Empty string
-            - Has body prop
-                - Empty string
-            - Has toRecipients prop
-                - Empty string
-            - Has from prop
-                - Empty string
-            - Has recivedDatetime
-                - Empty string
-            - attachments DNE
+- path: in format '/location' and does not map to existing location
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Empty string
+        - Has body prop
+            - Empty string
+        - Has toRecipients prop
+            - Empty string
+        - Has from prop
+            - Empty string
+        - Has recivedDatetime
+            - Empty string
+        - attachments DNE
 
 Then return the columns of that table with status code 0
 
@@ -1609,19 +1609,19 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: in format '/location' and does not map to existing location
-    - JSON Object
-        - Email Object
-            - No subject prop
-            - Has body prop
-                - Empty string
-            - Has toRecipients prop
-                - Empty string
-            - Has from prop
-                - Empty string
-            - Has recivedDatetime
-                - Empty string
-            - attachments DNE
+- path: in format '/location' and does not map to existing location
+- JSON Object
+    - Email Object
+        - No subject prop
+        - Has body prop
+            - Empty string
+        - Has toRecipients prop
+            - Empty string
+        - Has from prop
+            - Empty string
+        - Has recivedDatetime
+            - Empty string
+        - attachments DNE
 
 Then return the columns of that table with status code 0
 
@@ -1631,21 +1631,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: '/'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Empty string
-            - Has body prop
-                - Empty string
-            - Has toRecipients prop
-                - Empty string
-            - Has from prop
-                - Empty string
-            - Has recivedDatetime
-                - Empty string
-            - Has attachments
-                -Empty array
+- path: '/'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Empty string
+        - Has body prop
+            - Empty string
+        - Has toRecipients prop
+            - Empty string
+        - Has from prop
+            - Empty string
+        - Has recivedDatetime
+            - Empty string
+        - Has attachments
+            - Empty array
 
 Then return the columns of that table with status code 0
 
@@ -1657,21 +1657,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: './'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Empty string
-            - Has body prop
-                - Empty string
-            - Has toRecipients prop
-                - Empty string
-            - Has from prop
-                - Empty string
-            - Has recivedDatetime
-                - Empty string
-            - Has attachments
-                -Empty array
+- path: './'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Empty string
+        - Has body prop
+            - Empty string
+        - Has toRecipients prop
+            - Empty string
+        - Has from prop
+            - Empty string
+        - Has recivedDatetime
+            - Empty string
+        - Has attachments
+            - Empty array
 
 Then return the columns of that table with status code 0
 
@@ -1683,21 +1683,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path: '/location/'
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Empty string
-            - Has body prop
-                - Empty string
-            - Has toRecipients prop
-                - Empty string
-            - Has from prop
-                - Empty string
-            - Has recivedDatetime
-                - Empty string
-            - Has attachments
-                -Empty array
+- path: '/location/'
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Empty string
+        - Has body prop
+            - Empty string
+        - Has toRecipients prop
+            - Empty string
+        - Has from prop
+            - Empty string
+        - Has recivedDatetime
+            - Empty string
+        - Has attachments
+            - Empty array
 
 Then return the columns of that table with status code 0
 
@@ -1709,21 +1709,21 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path has spec chars[><:/\|?*]
-    - JSON Object
-        - Email Object
-            - Has subject prop
-                - Empty string
-            - Has body prop
-                - Empty string
-            - Has toRecipients prop
-                - Empty string
-            - Has from prop
-                - Empty string
-            - Has recivedDatetime
-                - Empty string
-            - Has attachments
-                -Empty array
+- path has spec chars[><:/\|?*]
+- JSON Object
+    - Email Object
+        - Has subject prop
+            - Empty string
+        - Has body prop
+            - Empty string
+        - Has toRecipients prop
+            - Empty string
+        - Has from prop
+            - Empty string
+        - Has recivedDatetime
+            - Empty string
+        - Has attachments
+            - Empty array
 
 Then return the columns of that table with status code 0
 
@@ -1735,20 +1735,20 @@ Then return the columns of that table with status code 0
 
 **Scenario:**
 When inputs are:
-    - path has spec chars[><:/\|?*]
-    - JSON Object
-        - Email Object
-            - Has no subject prop
-            - Has body prop
-                - Empty string
-            - Has toRecipients prop
-                - Empty string
-            - Has from prop
-                - Empty string
-            - Has recivedDatetime
-                - Empty string
-            - Has attachments
-                -Empty array
+- path has spec chars[><:/\|?*]
+- JSON Object
+    - Email Object
+        - Has no subject prop
+        - Has body prop
+            - Empty string
+        - Has toRecipients prop
+            - Empty string
+        - Has from prop
+            - Empty string
+        - Has recivedDatetime
+            - Empty string
+        - Has attachments
+            - Empty array
 
 Then return the columns of that table with status code 0
 

@@ -157,7 +157,7 @@ When inputs are:
             - Has attachments
                 -Empty array
 
-Then return the columns of that table with status code 0
+Then Returns file id for created PDF with status code 0
 
 **Covers Equivalence Classes:** 1,9,10,11,12,13,15,23,30,37,44,51,58,63,77, 83
 
@@ -182,7 +182,7 @@ When inputs are:
                 - Empty string
             - attachments DNE
 
-Then return the columns of that table with status code 0
+Then Returns file id for created PDF with status code 0
 
 **Covers Equivalence Classes:** 1,9,10,11,12,13,16,23,30,37,44,51,80,83
 
@@ -226,7 +226,7 @@ When inputs are:
                 - Has object with 'text/html' contentType
                 - Has object with 'text/plain' contentType
 
-Then return the columns of that table with status code 0
+Then Returns file id for created PDF with status code 0
 
 **Covers Equivalence Classes:** 1,9,10,11,12,13,15,24,31,38,45,52,58,63.5,69,71,80,83,85,87,88,89,90,91,92,93,94,95,96,97,98,99,100,101,102
 
@@ -239,7 +239,7 @@ When inputs are:
 - path: in format '/location'
 - JSON Object is blank space
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 2
 
@@ -252,7 +252,7 @@ When inputs are:
 - path: in format '/location'
 - JSON Object is alphanumeric string 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 3
 
@@ -265,7 +265,7 @@ When inputs are:
 - path: in format '/location'
 - JSON Object is string with object embedded within
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 4
 
@@ -278,7 +278,7 @@ When inputs are:
 - path: in format '/location'
 - JSON Object has no curly braces
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 5
 
@@ -291,7 +291,7 @@ When inputs are:
 - path: in format '/location'
 - JSON Object is array
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 6
 
@@ -304,7 +304,7 @@ When inputs are:
 - path: in format '/location'
 - JSON Object is float
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 7
 
@@ -317,7 +317,7 @@ When inputs are:
 - path: in format '/location'
 - JSON Object is integer
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 8
 
@@ -343,7 +343,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 17
 
@@ -369,7 +369,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 18
 
@@ -395,7 +395,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 19
 
@@ -421,7 +421,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 20
 
@@ -447,7 +447,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 21
 
@@ -474,7 +474,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 25
 
@@ -500,7 +500,7 @@ When inputs are:
         - Has attachments
             - Empty array
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 26
 
@@ -527,7 +527,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 27
 
@@ -554,7 +554,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 28
 
@@ -580,7 +580,7 @@ When inputs are:
         - Has attachments
             - Empty array
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 29
 
@@ -607,7 +607,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 32
 
@@ -634,7 +634,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 33
 
@@ -661,7 +661,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 34
 
@@ -688,7 +688,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 35
 
@@ -715,7 +715,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 36
 
@@ -742,7 +742,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 39
 
@@ -769,7 +769,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 40
 
@@ -796,7 +796,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 41
 
@@ -823,7 +823,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 42
 
@@ -850,7 +850,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 43
 
@@ -878,7 +878,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 46
 
@@ -905,7 +905,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 47
 
@@ -932,7 +932,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
  
 **Covers Equivalence Classes:** 48
 
@@ -959,7 +959,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 49
 
@@ -986,7 +986,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 50
 
@@ -1012,7 +1012,7 @@ When inputs are:
         - Has attachments
             - Empty array
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 53
 
@@ -1039,7 +1039,7 @@ When inputs are:
             - Empty array
 
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 54
 
@@ -1065,7 +1065,7 @@ When inputs are:
         - Has attachments
             - Empty array
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 55
 
@@ -1091,7 +1091,7 @@ When inputs are:
         - Has attachments
             - Empty array
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 56
 
@@ -1117,7 +1117,7 @@ When inputs are:
         - Has attachments
             - Empty array
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 57
 
@@ -1143,7 +1143,7 @@ When inputs are:
         - Has attachments
             - integer
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 59
 
@@ -1169,7 +1169,7 @@ When inputs are:
         - Has attachments
             - float
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 60
 
@@ -1195,7 +1195,7 @@ When inputs are:
         - Has attachments
             - string
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 61
 
@@ -1221,7 +1221,7 @@ When inputs are:
         - Has attachments
             - Is object
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 62
 
@@ -1247,7 +1247,7 @@ When inputs are:
         - Has attachments
             - Array of integers
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 64
 
@@ -1273,7 +1273,7 @@ When inputs are:
         - Has attachments
             - Array of floats
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 65
 
@@ -1299,7 +1299,7 @@ When inputs are:
         - Has attachments
             - Array of booleans
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 66
 
@@ -1325,7 +1325,7 @@ When inputs are:
         - Has attachments
             - Array of strings
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 67
 
@@ -1351,7 +1351,7 @@ When inputs are:
         - Has attachments
             - Array of arrays
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 68
 
@@ -1378,7 +1378,7 @@ When inputs are:
             - Array of object
                 - Has no contentBytes prop
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 70
 
@@ -1406,7 +1406,7 @@ When inputs are:
                 - Has contentType prop
                     - Is invalid value ie: audio/mpeg
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 103
 
@@ -1434,7 +1434,7 @@ When inputs are:
                 - Has contentBytes prop
                     - Is boolean
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 72
 
@@ -1462,7 +1462,7 @@ When inputs are:
                 - Has contentBytes prop
                     - Is integer
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 73
 
@@ -1490,7 +1490,7 @@ When inputs are:
                 - Has contentBytes prop
                     - Is float
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 74
 
@@ -1518,7 +1518,7 @@ When inputs are:
                 - Has contentBytes prop
                     - Is Object
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 75
 
@@ -1546,7 +1546,7 @@ When inputs are:
                 - Has contentBytes prop
                     - Is array
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 76
 
@@ -1574,7 +1574,7 @@ When inputs are:
                 - Has contentBytes prop
                     - Is array
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 76
 
@@ -1599,7 +1599,7 @@ When inputs are:
             - Empty string
         - attachments DNE
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 84
 
@@ -1623,7 +1623,7 @@ When inputs are:
             - Empty string
         - attachments DNE
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Design:** D4
 
@@ -1647,7 +1647,7 @@ When inputs are:
         - Has attachments
             - Empty array
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 78
 
@@ -1673,7 +1673,7 @@ When inputs are:
         - Has attachments
             - Empty array
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 79
 
@@ -1699,7 +1699,7 @@ When inputs are:
         - Has attachments
             - Empty array
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 81
 
@@ -1725,7 +1725,7 @@ When inputs are:
         - Has attachments
             - Empty array
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
 
 **Covers Equivalence Classes:** 82
 
@@ -1750,6 +1750,7 @@ When inputs are:
         - Has attachments
             - Empty array
 
-Then return the columns of that table with status code 0
+Then Returns empty string with status code -1
+
 
 **Covers Design:** D6

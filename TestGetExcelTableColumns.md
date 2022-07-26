@@ -74,21 +74,21 @@
 
 #### Conditions
 
-**C1:** Path provided exists
-**C2:** Path provided is in a valid format
-**C3:** File name provided exists
-**C4:** File name provided is in a valid format
-**C5:** Table name provided exists
-**C6:** Table name provided is a valid table name
+- **C1:** Path provided exists
+- **C2:** Path provided is in a valid format
+- **C3:** File name provided exists
+- **C4:** File name provided is in a valid format
+- **C5:** Table name provided exists
+- **C6:** Table name provided is a valid table name
 
 #### Effects
 
-**E1:** Returns status code 0
-**E2:** Returns status code 1
-**E3:** Returns status code 2
-**E4:** Returns status code 3
-**E5:** Empty stringified Array returned
-**E6:** Returns Array containing Excel table names
+- **E1:** Returns status code 0
+- **E2:** Returns status code 1
+- **E3:** Returns status code 2
+- **E4:** Returns status code 3
+- **E5:** Empty stringified Array returned
+- **E6:** Returns Array containing Excel table names
 
 #### Design Table
 

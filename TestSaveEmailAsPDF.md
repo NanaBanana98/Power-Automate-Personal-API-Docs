@@ -274,7 +274,7 @@ Then return the columns of that table with status code 0
 ### ID: 6
 
 **Scenario:**
-When inputs are:
+- When inputs are:
     - path: in format '/location'
     - JSON Object has no curly braces
 

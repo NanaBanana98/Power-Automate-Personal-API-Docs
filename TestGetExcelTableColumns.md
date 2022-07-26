@@ -551,7 +551,9 @@ When inputs are
 - tablename includes [*] without backticks
 
 Then return an empty stringified array with status code 1
+
 **Covers Invalid Class:** 3, 9, 15
+
 **Covers Design:** D8
 
 ### ID: 24
@@ -563,8 +565,10 @@ When inputs are
 - filename = name includes reserved characters
 - tablename includes [*] without backticks
 
-Then return an empty stringified array with status code 1\n
-**Covers Invalid Class:** 3, 10, 15\n
+Then return an empty stringified array with status code 1
+
+**Covers Invalid Class:** 3, 10, 15
+
 **Covers Design:** D8
 
 ### ID: 25
@@ -577,7 +581,9 @@ When inputs are
 - tablename includes [*] without backticks
 
 Then return an empty stringified array with status code 1
+
 **Covers Invalid Class:** 5, 9, 15
+
 **Covers Design:** D8
 
 ### ID: 26
@@ -591,7 +597,9 @@ When inputs are
 - tablename includes [*] without backticks
 
 Then return an empty stringified array with status code 1
+
 **Covers Invalid Class:** 5, 10, 15
+
 **Covers Design:** D8
 
 ### ID: 27
@@ -605,7 +613,9 @@ When inputs are
 - tablename includes [*] without backticks
 
 Then return an empty stringified array with status code 1
+
 **Covers Invalid Class:** 5.5, 9, 15
+
 **Covers Design:** D8
 
 ### ID: 28
@@ -618,7 +628,9 @@ When inputs are
 - tablename includes [*] without backticks
 
 Then return an empty stringified array with status code 1
+
 **Covers Invalid Class:** 5.5, 10, 15
+
 **Covers Design:** D8
 
 ### ID: 29
@@ -631,8 +643,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and exists
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 4,7,8,11,13,16
+
 **Covers Invalid Class:** 7
+
 **Covers Design:** D9
 
 ### ID: 30
@@ -645,8 +660,11 @@ When inputs are
 - tablename includes [*] without backticks
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 4,7,8,11,15
+
 **Covers Invalid Class:** 7, 15
+
 **Covers Design:** D10
 
 ### ID: 31
@@ -659,8 +677,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and exists
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 4,7,9,13,16
+
 **Covers Invalid Class:** 7, 9
+
 **Covers Design:** D11
 
 ### ID: 32
@@ -673,8 +694,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and exists
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 4,7,10,13,16
+
 **Covers Invalid Class:** 7, 10
+
 **Covers Design:** D11
 
 ### ID: 33
@@ -687,8 +711,11 @@ When inputs are
 - tablename includes [*] without backticks
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 4,7,9,15
+
 **Covers Invalid Class:** 7, 9, 15
+
 **Covers Design:** D12
 
 ### ID: 34
@@ -701,7 +728,9 @@ When inputs are
 - tablename includes [*] without backticks
 
 Then return an empty stringified array with status code 1
+
 **Covers Invalid Class:** 7, 9, 15
+
 **Covers Design:** D12
 
 ### ID: 35
@@ -714,8 +743,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and exists
 
 Then return an empty stringified array with status code 2
+
 **Covers Equivalence Classes:** 4,6,8,12,13,16
+
 **Covers Invalid Class:** 12
+
 **Covers Design:** D13
 
 ### ID: 36
@@ -728,8 +760,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and exists
 
 Then return an empty stringified array with status code 2
+
 **Covers Equivalence Classes:** 4,6,8,12,15
+
 **Covers Invalid Class:** 7, 15
+
 **Covers Design:** D14
 
 ### ID: 37
@@ -742,8 +777,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and exists
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 12,13,16
+
 **Covers Invalid Class:** 2, 12
+
 **Covers Design:** D15
 
 ### ID: 38
@@ -756,8 +794,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and exists
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 12,13,16
+
 **Covers Invalid Class:** 3, 12
+
 **Covers Design:** D15
 
 ### ID: 39
@@ -770,8 +811,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and exists
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 12,13,16
+
 **Covers Invalid Class:** 5, 12
+
 **Covers Design:** D15
 
 ### ID: 40
@@ -784,8 +828,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and exists
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 12,13,16
+
 **Covers Invalid Class:** 5.5, 12
+
 **Covers Design:** D15
 
 ### ID: 41
@@ -798,8 +845,11 @@ When inputs are
 - tablename includes [*] without backticks
 
 Then return an empty stringified array with status code 3
+
 **Covers Equivalence Classes:** 3,8, 12, 15
+
 **Covers Invalid Class:** 3, 12, 15
+
 **Covers Design:** D16
 
 ### ID: 42
@@ -812,8 +862,11 @@ When inputs are
 - tablename includes [*] without backticks
 
 Then return an empty stringified array with status code 3
+
 **Covers Equivalence Classes:** 5,8, 12, 15
+
 **Covers Invalid Class:** 5, 12, 15
+
 **Covers Design:** D16
 
 ### ID: 43
@@ -826,8 +879,11 @@ When inputs are
 - tablename includes [*] without backticks
 
 Then return an empty stringified array with status code 3
+
 **Covers Equivalence Classes:** 5.5,8, 12, 15
+
 **Covers Invalid Class:** 5.5, 12, 15
+
 **Covers Design:** D16
 
 ### ID: 44
@@ -840,8 +896,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and dne
 
 Then return an empty stringified array with status code 3
+
 **Covers Equivalence Classes:** 4,6,8,11,13,17
+
 **Covers Invalid Class:** 17
+
 **Covers Design:** D17
 
 ### ID: 45
@@ -854,8 +913,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and dne
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 4,6,9,13,17
+
 **Covers Invalid Class:** 9,17
+
 **Covers Design:** D18
 
 ### ID: 46
@@ -867,8 +929,11 @@ Then return an empty stringified array with status code 1
 - tablename includes only [A-Za-z_] and dne
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 4,6,10,13,17
+
 **Covers Invalid Class:** 10,17
+
 **Covers Design:** D18
 
 ### ID: 47
@@ -879,10 +944,13 @@ When inputs are
 - Path in format '/'
 - filename = 'name' and location exists
 - tablename includes only [A-Za-z_] and dne
-  Then return an empty stringified array with status code 1
+
+Then return an empty stringified array with status code 1
 
 **Covers Equivalence Classes:** 2,8,11,13,17
+
 **Covers Invalid Class:** 2,17
+
 **Covers Design:** D19
 
 ### ID: 48
@@ -895,8 +963,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and dne
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 3,8,11,13,17
+
 **Covers Invalid Class:** 3,17
+
 **Covers Design:** D19
 
 ### ID: 49
@@ -909,8 +980,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and dne
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 5,8,11,13,17
+
 **Covers Invalid Class:** 5,17
+
 **Covers Design:** D19
 
 ### ID: 50
@@ -923,8 +997,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and dne
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 5.5,8,11,13,17
+
 **Covers Invalid Class:** 5.5,17
+
 **Covers Design:** D19
 
 ### ID: 51
@@ -937,8 +1014,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and dne
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 3,9,13,17
+
 **Covers Invalid Class:** 3, 9, 17
+
 **Covers Design:** D20
 
 ### ID: 52
@@ -951,8 +1031,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and dne
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 3,10,13,17
+
 **Covers Invalid Class:** 3, 10, 17
+
 **Covers Design:** D20
 
 ### ID: 53
@@ -965,8 +1048,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and dne
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 5,9,13,17
+
 **Covers Invalid Class:** 5, 9, 17
+
 **Covers Design:** D20
 
 ### ID: 54
@@ -977,10 +1063,14 @@ When inputs are
 - path is in form '/location/'
 - filename = name includes reserved characters
 - tablename includes only [A-Za-z_] and dne
-  Then return an empty stringified array with status code 1
-  **Covers Equivalence Classes:** 5,10,13,17
-  **Covers Invalid Class:** 5, 10, 17
-  **Covers Design:** D20
+
+Then return an empty stringified array with status code 1
+
+**Covers Equivalence Classes:** 5,10,13,17
+
+**Covers Invalid Class:** 5, 10, 17
+
+**Covers Design:** D20
 
 ### ID:
 
@@ -992,8 +1082,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and dne
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 5.5,9,13,17
+
 **Covers Invalid Class:** 5.5, 9, 17
+
 **Covers Design:** D20
 
 ### ID: 55
@@ -1006,8 +1099,11 @@ When inputs are
 - tablename includes only [A-Za-z_] and dne
 
 Then return an empty stringified array with status code 1
+
 **Covers Equivalence Classes:** 5.5,10,13,17
+
 **Covers Invalid Class:** 5.5, 10, 17
+
 **Covers Design:** D20
 
 ## Test Run Results

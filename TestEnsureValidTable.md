@@ -9,12 +9,19 @@
 #### Conditions
 
 **C0:** Path provided exists
+
 **C1:** Path provided is in a valid format
+
 **C2:** File name provided exists
+
 **C3:** File name provided is in a valid format
+
 **C4:** Table name provided exists
+
 **C5:** Table name provided is a valid table name
+
 **C6:** Valid JSON string Array Passed
+
 **C7:** Columns passed exists in table
 
 #### Effects

@@ -20,15 +20,25 @@
 #### Effects
 
 **E0:** Returns status code 0
+
 **E1:** Returns status code 1
+
 **E2:** Returns status code 2
+
 **E3:** Returns status code 3
+
 **E4:** Returns status code 4
+
 **E5:** Create Folder
+
 **E6:** Create File
+
 **E7:** Create Table
+
 **E8:** Create columns
+
 **E9:** Returns file id of where table is located
+
 **E10:** Returns an empty string
 
 #### Table

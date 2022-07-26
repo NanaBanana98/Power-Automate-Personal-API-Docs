@@ -233,7 +233,9 @@ When inputs are:
 - columns is an empty array
 
 Then return id of excel table and status code 0
+
 **Covers Equivalence Classes:** 1,8,11,13,16, 18
+
 **Covers Design:** D1
 
 ### ID: 1
@@ -247,7 +249,9 @@ When inputs are:
 - columns is an empty array
 
 Then return id of excel table and status code 0
+
 **Covers Equivalence Classes:** 1,8,11,14,16, 18
+
 **Covers Design:** D1
 
 ### ID: 2
@@ -261,7 +265,9 @@ When inputs are
 - columns is an empty array
 
 Then return id of excel table and status code 0
+
 **Covers Equivalence Classes:** 4,6,8,11,13,16,18
+
 **Covers Design:** D1
 
 ### ID: 3
@@ -275,7 +281,9 @@ When inputs are
 - columns is an empty array
 
 Then return id of excel table and status code 0
+
 **Covers Equivalence Classes:** 4,6,8,11,14,16,18
+
 **Covers Design:** D1
 
 ### ID: 4
@@ -289,7 +297,9 @@ When inputs are:
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return id of excel table and status code 0
+
 **Covers Equivalence Classes:** 1,8,11,13,16,25,30
+
 **Covers Design:** D1
 
 ### ID: 5
@@ -303,7 +313,9 @@ When inputs are:
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return id of excel table and status code 0
+
 **Covers Equivalence Classes:** 1,8,11,14,16,25,30
+
 **Covers Design:** D1
 
 ### ID: 6
@@ -317,7 +329,9 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return id of excel table and status code 0
+
 **Covers Equivalence Classes:** 4,6,8,11,13,16,25,30
+
 **Covers Design:** D1
 
 ### ID: 7
@@ -331,7 +345,9 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return id of excel table and status code 0
+
 **Covers Equivalence Classes:** 4,6,8,11,14,16,25,30
+
 **Covers Design:** D1
 
 ### ID: 8
@@ -345,7 +361,9 @@ When inputs are:
 - columns is an array of strings in format \* with backticks and each exists in excel table
 
 Then return id of excel table and status code 0
+
 **Covers Equivalence Classes:** 1,8,11,13,16,25,31
+
 **Covers Design:** D1
 
 ### ID: 9
@@ -359,7 +377,9 @@ When inputs are:
 - columns is an array of strings in format \* with backticks and each exists in excel table
 
 Then return id of excel table and status code 0
+
 **Covers Equivalence Classes:** 1,8,11,14,16, 25,31
+
 **Covers Design:** D1
 
 ### ID: 10
@@ -373,7 +393,9 @@ When inputs are
 - columns is an array of strings in format \* with backticks and each exists in excel table
 
 Then return id of excel table and status code 0
+
 **Covers Equivalence Classes:** 4,6,8,11,13,16,25,31
+
 **Covers Design:** D1
 
 ### ID: 11
@@ -387,7 +409,9 @@ When inputs are
 - columns is an array of strings in format \* with backticks and each exists in excel table
 
 Then return id of excel table and status code 0
+
 **Covers Equivalence Classes:** 4,6,8,11,14,16,25,31
+
 **Covers Design:** D1
 
 ### ID: 12
@@ -401,6 +425,7 @@ When inputs are:
 - tablename includes only [A-Za-z_] and values dne in excel table
 
 Then return id of excel table, and status code 0, missing columns included in table
+
 **Covers Design:** D2
 
 ### ID: 13
@@ -414,7 +439,9 @@ When inputs are:
 - columns ' '
 
 Then return empty string and status code 4
+
 **Covers Invlaid:** 19
+
 **Covers Design:** D3
 
 ### ID: 14
@@ -428,7 +455,9 @@ When inputs are:
 - columns is JSON object ie: '{}'
 
 Then return empty string and status code 4
+
 **Covers Invlaid:** 20
+
 **Covers Design:** D3
 
 ### ID: 15
@@ -442,7 +471,9 @@ When inputs are:
 - columns is Number ie: 0
 
 Then return empty string and status code 4
+
 **Covers Invlaid:** 21
+
 **Covers Design:** D3
 
 ### ID: 16
@@ -456,7 +487,9 @@ When inputs are:
 - columns is Boolean ie: true
 
 Then return empty string and status code 4
+
 **Covers Invlaid:** 22
+
 **Covers Design:** D3
 
 ### ID: 17
@@ -470,7 +503,9 @@ When inputs are:
 - columns is Float ie: 0.25
 
 Then return empty string and status code 4
+
 **Covers Invlaid:** 23
+
 **Covers Design:** D3
 
 ### ID: 18
@@ -484,7 +519,9 @@ When inputs are:
 - columns is non-empty string ie: 'Abc4\*6/'
 
 Then return empty string and status code 4
+
 **Covers Invlaid:** 24
+
 **Covers Design:** D3
 
 ### ID: 19
@@ -498,7 +535,9 @@ When inputs are:
 - columns is an array of JSON objects ie: [{},{},{}]
 
 Then return empty string and status code 4
+
 **Covers Invlaid:** 26
+
 **Covers Design:** D3
 
 ### ID: 20
@@ -512,7 +551,9 @@ When inputs are:
 - columns is an array of Numbers ie: [1,2,3,4]
 
 Then return empty string and status code 4
+
 **Covers Invlaid:** 27
+
 **Covers Design:** D3
 
 ### ID: 21
@@ -526,7 +567,9 @@ When inputs are:
 - columns is an array of Floats ie: [1.1,2.1,3.1,4.1]
 
 Then return empty string and status code 4
+
 **Covers Invlaid:** 28
+
 **Covers Design:** D3
 
 ### ID: 22
@@ -540,7 +583,9 @@ When inputs are:
 - columns is an array of Booleans ie: [true,false,true,false]
 
 Then return empty string and status code 4
+
 **Covers Invlaid:** 29
+
 **Covers Design:** D3
 
 ### ID: 23
@@ -554,7 +599,9 @@ When inputs are:
 - columns is an array of Strings with invalid col chars ie: [`|`,Hello World,1 2,|]
 
 Then return empty string and status code 4
+
 **Covers Invlaid:** 32
+
 **Covers Design:** D3
 
 ### ID: 24
@@ -568,7 +615,9 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return empty string and status code 3
+
 **Covers Invalid Class:** 15
+
 **Covers Design:** D4
 
 ### ID: 25
@@ -582,6 +631,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return empty string and status code 3
+
 **Covers Design:** D5
 
 ### ID: 26
@@ -595,6 +645,7 @@ When inputs are
 - columns is blank space
 
 Then return empty string and status code 3,missing file created
+
 **Covers Design:** D6
 
 ### ID: 27
@@ -608,7 +659,9 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return empty string and status code 2
+
 **Covers Invalid Class:** 9
+
 **Covers Design:** D7
 
 ### ID: 28
@@ -622,7 +675,9 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return empty string and status code 2
+
 **Covers Invalid Class:** 10
+
 **Covers Design:** D7
 
 ### ID: 29
@@ -636,6 +691,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return empty string and status code 2
+
 **Covers Design:** D8
 
 ### ID: 30
@@ -649,6 +705,7 @@ When inputs are
 - columns is blank space
 
 Then return empty string and status code 2
+
 **Covers Design:** D9
 
 ### ID: 31
@@ -662,6 +719,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return empty string and status code 2
+
 **Covers Design:** D10
 
 ### ID: 32
@@ -675,6 +733,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return empty string and status code 2
+
 **Covers Design:** D11
 
 ### ID: 33
@@ -688,6 +747,7 @@ When inputs are
 - columns is blank space
 
 Then return empty string and status code 2
+
 **Covers Design:** D12
 
 ### ID: 34
@@ -701,7 +761,9 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return empty string and status code 1
+
 **Covers Invalid Class:** 2
+
 **Covers Design:** D13
 
 ### ID: 35
@@ -715,7 +777,9 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return empty string and status code 1
+
 **Covers Invalid Class:** 3
+
 **Covers Design:** D13
 
 ### ID: 36
@@ -729,7 +793,9 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return empty string and status code 1
+
 **Covers Invalid Class:** 5
+
 **Covers Design:** D13
 
 ### ID: 37
@@ -743,7 +809,9 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return empty string and status code 1
+
 **Covers Invalid Class:** 5.5
+
 **Covers Design:** D13
 
 ### ID: 38
@@ -757,6 +825,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return empty string and status code 1
+
 **Covers Design:** D14
 
 ### ID: 39
@@ -770,6 +839,7 @@ When inputs are
 - columns is blank space
 
 Then return empty string and status code 1
+
 **Covers Design:** D15
 
 ### ID: 40
@@ -783,6 +853,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return empty string and status code 1
+
 **Covers Design:** D16
 
 ### ID: 41
@@ -796,6 +867,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return empty string and status code 1
+
 **Covers Design:** D17
 
 ### ID: 42
@@ -809,6 +881,7 @@ When inputs are
 - columns is blank space
 
 Then return empty string and status code 1
+
 **Covers Design:** D18
 
 ### ID: 43
@@ -822,6 +895,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return empty string and status code 1
+
 **Covers Design:** D19
 
 ### ID: 44
@@ -835,6 +909,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return empty string and status code 1
+
 **Covers Design:** D20
 
 ### ID: 45
@@ -848,6 +923,7 @@ When inputs are
 - columns is blank space
 
 Then return empty string and status code 1
+
 **Covers Design:** D21
 
 ### ID: 46
@@ -861,6 +937,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return empty string and status code 1
+
 **Covers Design:** D22
 
 ### ID: 47
@@ -874,6 +951,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return empty string and status code 1
+
 **Covers Design:** D23
 
 ### ID: 48
@@ -887,6 +965,7 @@ When inputs are
 - columns is blank space
 
 Then return empty string and status code 1
+
 **Covers Design:** D24
 
 ### ID: 49
@@ -900,11 +979,13 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return empty string and status code 2
+
 **Covers Design:** D25
 
 ### ID: 50
 
 **Scenario:**
+
 When inputs are
 
 - Path in format '/location' and DNE
@@ -913,6 +994,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return empty string and status code 2
+
 **Covers Design:** D26
 
 ### ID: 51
@@ -926,6 +1008,7 @@ When inputs are
 - columns is blank space
 
 Then return empty string and status code 2
+
 **Covers Design:** D27
 
 ### ID: 52
@@ -939,6 +1022,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return empty string and status code 2
+
 **Covers Design:** D28
 
 ### ID: 53
@@ -952,6 +1036,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return empty string and status code 2
+
 **Covers Design:** D29
 
 ### ID: 54
@@ -965,6 +1050,7 @@ When inputs are
 - columns is blank space
 
 Then return empty string and status code 2
+
 **Covers Design:** D30
 
 ### ID: 55
@@ -978,7 +1064,9 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return an empty stringified array with status code 2
+
 **Covers Invalid Class:** 12
+
 **Covers Design:** D31
 
 ### ID: 56
@@ -992,6 +1080,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return an empty stringified array with status code 2
+
 **Covers Design:** D32
 
 ### ID: 57
@@ -1005,6 +1094,7 @@ When inputs are
 - columns is blank space
 
 Then return an empty stringified array with status code 2
+
 **Covers Design:** D33
 
 ### ID: 58
@@ -1018,6 +1108,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return an empty stringified array with status code 2
+
 **Covers Design:** D34
 
 ### ID: 59
@@ -1031,6 +1122,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return an empty stringified array with status code 2
+
 **Covers Design:** D35
 
 ### ID: 60
@@ -1044,6 +1136,7 @@ When inputs are
 - columns is blank space
 
 Then return an empty stringified array with status code 2
+
 **Covers Design:** D36
 
 ### ID: 61
@@ -1057,6 +1150,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D37
 
 ### ID: 62
@@ -1070,6 +1164,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D38
 
 ### ID: 63
@@ -1083,6 +1178,7 @@ When inputs are
 - columns is blank space
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D39
 
 ### ID: 64
@@ -1096,8 +1192,11 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return an empty stringified array with status code 3
+
 **Covers Equivalence Classes:** 3,8, 12, 15
+
 **Covers Invalid Class:** 3, 12, 15
+
 **Covers Design:** D40
 
 ### ID: 65
@@ -1111,8 +1210,11 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return an empty stringified array with status code 3
+
 **Covers Equivalence Classes:** 3,8, 12, 15
+
 **Covers Invalid Class:** 3, 12, 15
+
 **Covers Design:** D41
 
 ### ID: 66
@@ -1126,6 +1228,7 @@ When inputs are
 - columns is blank space
 
 Then return an empty stringified array with status code 3
+
 **Covers Design:** D42
 
 ### ID: 67
@@ -1139,7 +1242,9 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return an empty stringified array with status code 3
+
 **Covers Invalid Class:** 17
+
 **Covers Design:** D43
 
 ### ID: 68
@@ -1153,6 +1258,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return an empty stringified array with status code 3
+
 **Covers Design:** D44
 
 ### ID: 69
@@ -1166,6 +1272,7 @@ When inputs are
 - columns is blank space
 
 Then return an empty stringified array with status code 3
+
 **Covers Design:** D45
 
 ### ID: 70
@@ -1179,6 +1286,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D46
 
 ### ID: 71
@@ -1192,6 +1300,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D47
 
 ### ID: 72
@@ -1205,6 +1314,7 @@ When inputs are
 - columns is blank space
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D48
 
 ### ID: 73
@@ -1218,6 +1328,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D49
 
 ### ID: 74
@@ -1231,6 +1342,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D50
 
 ### ID: 75
@@ -1244,6 +1356,7 @@ When inputs are
 - columns is blank space
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D51
 
 ### ID: 76
@@ -1257,6 +1370,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D52
 
 ### ID: 77
@@ -1270,6 +1384,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D53
 
 ### ID: 78
@@ -1283,6 +1398,7 @@ When inputs are
 - columns is blank space
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D54
 
 ### ID: 79
@@ -1296,6 +1412,7 @@ When inputs are
 - columns is empty array
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D55
 
 ### ID: 80
@@ -1309,6 +1426,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D56
 
 ### ID: 81
@@ -1322,6 +1440,7 @@ When inputs are
 - columns is blank space
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D57
 
 ### ID: 82
@@ -1335,6 +1454,7 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each exists in excel table
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D58
 
 ### ID: 83
@@ -1348,4 +1468,5 @@ When inputs are
 - columns is an array of strings in format [A-Za-z_] and each dne in excel table
 
 Then return an empty stringified array with status code 1
+
 **Covers Design:** D59

@@ -109,12 +109,12 @@
 |                        |                          |75-Object
 |                        |                          |76-Array
 |**contentType**         |87- 'image/png'           |103- 'audio/mpeg'
-|                        |88- 'image/avif'
-|                        |89- 'image/bmp'
-|                        |90- 'image/gif'
-|                        |91- 'image/jpeg'
-|                        |92- 'image/tiff'
-|                        |93- 'image/webp'
+|                        |88- 'image/avif'          |
+|                        |89- 'image/bmp'           |
+|                        |90- 'image/gif'           |
+|                        |91- 'image/jpeg'          |
+|                        |92- 'image/tiff'          |
+|                        |93- 'image/webp'          |
 |                        |94- 'application/msword'
 |                        |95- 'application/vnd.openxmlformats-officedocument.wordprocessingml.document'
 |                        |96- 'application/json'
@@ -124,6 +124,8 @@
 |                        |100- 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
 |                        |101- 'text/html'
 |                        |102- 'text/plain'
+
+
 [Common Content Types](https://developer.mozilla.org/en-US/docs/Web/HTTP/Basics_of_HTTP/MIME_types/Common_types)
 
 

@@ -144,7 +144,7 @@
 
 [See Valid Table Name](https://docs.microsoft.com/en-us/sql/odbc/microsoft/table-name-limitations?view=sql-server-ver16)
 
-## Test Cases
+## Test Cases 
 
 ### ID: 0
 
@@ -156,7 +156,9 @@ When inputs are:
 - tablename includes only [A-Za-z_] and exists
 
 Then return the columns of that table with status code 0
+
 **Covers Equivalence Classes:** 1,8,11,13,16
+
 **Covers Design:** D1
 
 ### ID: 1

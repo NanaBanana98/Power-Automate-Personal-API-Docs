@@ -752,22 +752,6 @@ Then return an empty stringified array with status code 2
 
 **Covers Design:** D13
 
-### ID: 36
-
-**Scenario:**
-When inputs are
-
-- Path in format '/location' and exists
-- filename = 'name' and location dne
-- tablename includes only [A-Za-z_] and exists
-
-Then return an empty stringified array with status code 2
-
-**Covers Equivalence Classes:** 4,6,8,12,15
-
-**Covers Invalid Class:** 7, 15
-
-**Covers Design:** D14
 
 ### ID: 37
 
@@ -846,7 +830,7 @@ When inputs are
 - filename = name includes extension
 - tablename includes [*] without backticks
 
-Then return an empty stringified array with status code 3
+Then return an empty stringified array with status code 1
 
 **Covers Equivalence Classes:** 3,8, 12, 15
 
@@ -863,7 +847,7 @@ When inputs are
 - filename = name includes extension
 - tablename includes [*] without backticks
 
-Then return an empty stringified array with status code 3
+Then return an empty stringified array with status code 1
 
 **Covers Equivalence Classes:** 5,8, 12, 15
 
@@ -880,7 +864,7 @@ When inputs are
 - filename = name includes extension
 - tablename includes [*] without backticks
 
-Then return an empty stringified array with status code 3
+Then return an empty stringified array with status code 1
 
 **Covers Equivalence Classes:** 5.5,8, 12, 15
 
@@ -1074,7 +1058,7 @@ Then return an empty stringified array with status code 1
 
 **Covers Design:** D20
 
-### ID:
+### ID: 56
 
 **Scenario:**
 When inputs are
